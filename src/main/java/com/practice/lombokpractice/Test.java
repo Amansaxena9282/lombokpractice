@@ -8,6 +8,6 @@ public class Test {
         SpringApplication.run(LombokpracticeApplication.class, args);
         User user=new User();
         user.setName("aman");
-        System.out.println("eleserv softech="+user.getName());
+        System.out.println("eleserv ="+user.getName());
     }
 }

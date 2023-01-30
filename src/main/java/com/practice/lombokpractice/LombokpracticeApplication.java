@@ -10,8 +10,10 @@ public class LombokpracticeApplication {
 	public static void main(String[] args) {
 		SpringApplication.run(LombokpracticeApplication.class, args);
 		User user=new User();
-		user.setName("aman");
-		System.out.println("eleserv softech="+user.getName());
+		user.setName1("neeraj sir is our manager of eleserv softech");
+//		user.setName("neeraj sir is our manager");
+		System.out.println("Company ="+user.getName1());
+//		System.out.println("softech ="+user.getName());
 	}
 
 }
